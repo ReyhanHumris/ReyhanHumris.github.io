@@ -26,7 +26,7 @@
           <ul class="navlinks">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about-skills">About Me</a></li>
-            <li><a href="#education">education</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#projects">Project</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -38,7 +38,12 @@
           <img src="download (1).jpg" alt="profile pic" />
         </div>
         <div class="hero-text">
-          <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+          <h5>Hi I'm
+            <span class="input">
+              <span>Frontend Developer</span>
+
+            </span>
+          </h5>
           <h1>Muhammad Raihaan Humris</h1>
           <p>Halo! Saya Muhammad Raihaan, seorang web designer pemula yang bersemangat menciptakan desain web yang bersih, responsif, dan user-friendly.</p>
           <div class="btn-group">
@@ -59,26 +64,30 @@
 
 <section id="about-skills" class="section">
   <div class="wrapper">
-    <h2>About Me & My Skills</h2>
+    <h2 class="section-heading">About Me & My Skills</h2>
     <div class="about-skills-wrapper">
-      <div class="about-text">
-        <p>Saya adalah seorang siswa berusia 16 tahun yang saat ini menempuh pendidikan di Madrasah Aliyah Kejuruan Negeri (MAKN) Ende, dengan fokus pada bidang Pengembangan Perangkat Lunak dan Gim. Saya berasal dari Maumere, dan memiliki ketertarikan besar di dunia pemrograman. Sebagai seorang programmer pemula, saya terus belajar dan mengembangkan keterampilan saya untuk membangun aplikasi dan website yang menarik serta fungsional.</p>
+      <div class="about-content-left">
+        <img src="download (1).jpg" alt="About Me Photo" class="about-img" />
       </div>
-
-      <img src="download (1).jpg" alt="About Me Photo" class="about-img" />
-
-      <div class="skills-container">
-        <div class="skill">
-          <div class="skill-name">HTML</div>
-          <div class="skill-bar"><div class="skill-fill html">80%</div></div>
+      <div class="about-content-right">
+        <div class="about-text">
+          <h3>About Me</h3>
+          <p>Saya adalah seorang siswa berusia 16 tahun yang saat ini menempuh pendidikan di Madrasah Aliyah Kejuruan Negeri (MAKN) Ende, dengan fokus pada bidang Pengembangan Perangkat Lunak dan Gim. Saya berasal dari Maumere, dan memiliki ketertarikan besar di dunia pemrograman. Sebagai seorang programmer pemula, saya terus belajar dan mengembangkan keterampilan saya untuk membangun aplikasi dan website yang menarik serta fungsional.</p>
         </div>
-        <div class="skill">
-          <div class="skill-name">CSS</div>
-          <div class="skill-bar"><div class="skill-fill css">65%</div></div>
-        </div>
-        <div class="skill">
-          <div class="skill-name">JavaScript</div>
-          <div class="skill-bar"><div class="skill-fill js">50%</div></div>
+        <div class="skills-container">
+          <h3>My Skills</h3>
+          <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar"><div class="skill-fill html"><span>80%</span></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar"><div class="skill-fill css"><span>65%</span></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar"><div class="skill-fill js"><span>50%</span></div></div>
+          </div>
         </div>
       </div>
     </div>
@@ -90,7 +99,7 @@
 
   <section id="education" class="section">
     <div class="wrapper">
-      <h2 class="Judul">Pendidikan</h2>
+      <h2 class="section-heading">Pendidikan</h2>
       <div class="timeline-center">
         <div class="education-item left">
           <h3>Madrasah Aliyah Kejuruan Negeri Ende</h3>
@@ -110,17 +119,19 @@
 
   <section id="projects" class="section">
     <div class="wrapper">
-      <h2 class="Judul">Proyek</h2>
+      <h2 class="section-heading">Proyek</h2>
       <div class="project-list">
         <div class="project card">
+          <img src="Bakso.html/—Pngtree—3d bakso illustration_13374641.png" alt="Proyek Satu Thumbnail">
           <h3>Proyek Satu</h3>
-          <p>Aplikasi web responsif menggunakan React & Tailwind CSS.</p>
-          <a href="Bakso.html/Bakso.html">Lihat Proyek</a>
+          <p>Website Restourant Bakso.</p>
+          <a href="Bakso.html/Bakso.html" class="btn-project">Lihat Proyek</a>
         </div>
         <div class="project card">
+          <img src="placeholder-project2.jpg" alt="Proyek Dua Thumbnail">
           <h3>Proyek Dua</h3>
           <p>Redesain portofolio dengan antarmuka modern.</p>
-          <a href="#">Lihat Proyek</a>
+          <a href="#" class="btn-project">Lihat Proyek</a>
         </div>
       </div>
     </div>
@@ -129,9 +140,35 @@
 
   <section id="contact" class="section">
     <div class="wrapper">
-      <h2 class="section-title">Contact</h2>
-      <p>Email: raihaan@example.com</p>
-      <p>Phone: +62 812-3456-7890</p>
+      <h2 class="section-heading">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-card">
+          <a href="mailto:raihaan@example.com" class="contact-link">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>raihaan@example.com</p>
+          </a>
+        </div>
+        <div class="contact-card">
+          <a href="tel:+6281234567890" class="contact-link">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+62 812-3456-7890</p>
+          </a>
+        </div>
+        <div class="contact-card">
+          <a href="https://maps.google.com/?q=Ende,Flores,NTT" target="_blank" class="contact-link">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Location</h3>
+            <p>Ende, Flores, NTT</p>
+          </a>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Github"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
   </section>
 
@@ -141,6 +178,6 @@
   </footer>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
 </body>
 </html>
